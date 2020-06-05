@@ -1,0 +1,511 @@
+@media screen and (max-width: 1690px)  {
+    .pan {
+        bottom: 0;
+        left: 60px;
+    }
+    .wrap_form {
+        right: 100px;
+    }
+    .header-menu  {
+        padding: 25px 60px;
+    }
+}
+
+@media screen and (max-width: 1680px)  {
+    .girl {
+        width: 1100px;
+    }
+    .pan {
+        bottom: 150px;
+        left: 60px;
+    }
+}
+
+@media screen and (max-width: 1430px)  {
+    .header-menu  {
+        padding: 25px 60px;
+    }
+    .pan {
+        bottom: 100px;
+    }
+    .iphone {
+        right: 0;
+    }
+    .TeenagerGirl {
+        margin-left: 0;
+    }
+    .about-text {
+        width: auto;
+    }
+    .heaeder__backgroud {
+        background-size: auto;
+    }
+}
+@media screen and (max-width: 1300px)  {
+    .header-menu  {
+        padding: 20px 15px;
+    }
+    .menu__item {
+        font-size: 20px;
+    }
+    .pan {
+        width: 180px;
+        left: 200px;
+    }
+    .iphone {
+        width: 300px;
+        top: -50px;
+    }
+    #testimonials .slick-slide {
+        height: 100%;
+    } 
+}
+@media screen and (max-width: 1130px) {
+    .heaeder__backgroud {
+        position: relative;
+    }
+    .header-menu  {
+        padding: 20px 15px;
+    }
+    .header-menu {
+        flex-wrap: wrap;
+    }
+    .social {
+        margin-top: 5px;
+    }
+    .pan {
+        bottom: -120px;
+    }
+    .TeenagerGirl {
+        margin-left: -200px;
+    }
+    .iphone {
+        width: 270px;
+    }
+    .service_content {
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 1000px) { 
+    .girl {
+        width: 700px;
+        top: 300px;
+    }
+    .circle {
+        width: 300px;
+        height: 300px;
+        top: 700px;
+        left: 710px;
+    }
+    .pan {
+        bottom: 120px;
+    }
+    .menu,
+    .social {
+        display: none;
+    }
+    .burger_btn {
+        display: block;
+    }
+    .slick-prev {
+        left: -25px;
+        z-index: 5;
+    }
+    .slick-next {
+        right: 5px;
+        z-index: 5;
+    }
+    .TeenagerGirl {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 0px;
+    }
+    .about {
+        padding-top: 30px;
+    }
+    .about-info {
+        max-width: 485px;
+        text-align: right;
+        margin-top: 0px;
+    }
+    .about-title {
+        font-size: 60px;
+    }
+    .about-text {
+        font-size: 18px;
+    }
+    #modal2 {
+        border-radius: 0;
+    }
+    .burger_content {
+        width: 310px;
+        position: relative;
+    }
+    .burger_title {
+        justify-content: space-between;
+        background: #F9F9F9;
+        padding: 20px;
+    }
+    .menu__item + .menu__item {
+        margin-left: 0;
+    }
+    .burger_menu {
+        padding: 20px;
+    }
+    .burger_menu .menu__item {
+        margin-top: 10px;
+        padding: 5px 20px;
+    }
+    .burger_menu .menu__item:hover {
+        border-right: 2px solid #F2AC24;
+        border-left: 2px solid #F2AC24;
+        background: #F9F9F9;
+        color: #000;
+    }
+    .burger_social {
+        padding: 27px 78px 30px 20px;
+    }
+    .companies_report-list {
+        font-size: 16px;
+    }
+    .wrap_form {
+        right: 50%;
+        transform: translateX(50%);
+        width: 408px;
+        top: 450px;
+    }
+    .social__item img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 700px) {
+    
+    
+    .title {
+        font-size: 35px;
+        line-height: 52px;
+        margin-top: 36px;
+    }
+    .advantages {
+        margin-top: 21px;
+    }
+    .advantages-item {
+        height: 100%;
+    }
+    .advantages-item + .advantages-item {
+        margin-top: 10px;
+    }
+    .advantages-item img {
+        width: 40px;
+        height: 40px;
+    }
+    .advantages-item__text {
+        font-size: 16px;
+        line-height: 40px;
+        margin-left: 0;
+    }
+    .girl {
+        width: 600px;
+        top: 200px;
+    }
+    .circle {
+        right: 80px;
+        width: 180px;
+        height: 180px;
+        top: 600px;
+    }
+    .button_contact {
+        margin: 300px auto 0 auto;
+    }
+    .pan {
+        left: 20px;
+        bottom: 120px;
+    }
+   
+    .title_slider {
+        font-size: 28px;
+    }
+    .title_slider::after {
+        width: 60px;
+        margin-left: -30px;
+    }
+    .about-title {
+        font-size: 32px;
+    }
+    .about-title::after {
+        width: 50px;
+    }
+    .about-text {
+        font-size: 12px;
+    }
+    .interactive-title {
+        font-size: 32px;
+    }
+    .interactive-title::after {
+        width: 100px;
+        margin-right: -50px;
+    }
+    .companies_report {
+        background: url("../img/tel_bg_interactive.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+    .quality_engaging,
+    .companies_report,
+    .web_safe,
+    .children {
+        font-size: 21.9113px;
+        padding: 0;
+    }
+    .interactive-list__left_title,
+    .interactive-list__right_title {
+        text-align: center;
+    }
+    .companies_report-list {
+        width: 80%;
+        margin: 20px auto;
+    }
+    .companies_report .interactive-list__left_title {
+        padding-top: 220px;
+    }
+    .quality_engaging {
+        margin-top: 140px;
+        background: url("../img/tel_bg_companies.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+    .quality_engaging .interactive-list__right_title {
+        padding-top: 190px;
+        width: 90%;
+        margin: 0 auto;
+        word-spacing: 4px;
+    }
+    .web_safe {
+        margin-top: 40px;
+        background: url("../img/tel_bg_web.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+    .web_safe .interactive-list__left_title {
+        padding-top: 240px;
+    }
+    .children {
+        margin-top: 40px;
+        background: url("../img/tel_bg_children.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+    .children .interactive-list__right_title {
+        padding-top: 200px;
+    }
+
+
+    .title_service {
+        font-size: 32px;
+    }
+    .testimonials_slide_title {
+        font-size: 32px;
+    }
+    .testimonials_slide p {
+        font-size: 12px;
+    }
+
+
+    .title_testimonials {
+        font-size: 32px;
+    }
+    #testimonials .slick-slide {
+        margin: 0 50px;
+    }
+
+    .wrap_form {
+        right: 50%;
+        margin-right: -180px;
+        top: 425px;
+    }
+    footer {
+        padding-top: 400px;
+    }
+}
+
+
+@media screen and (max-width: 500px) { 
+    .companies_report-list li  {
+        position: relative;
+    }
+    .companies_report-list img {
+        top: 50%;
+        margin-top: -14px;
+    }
+    .header-menu  {
+        padding: 15px 10px;
+        width: 100%;
+    }
+    .girl {
+        top: 220px;
+        width: 100%;
+        left: 0px;
+    }
+    .circle {
+        width: 100px;    
+        height: 100px; 
+        left: 530px;
+        top: 600px; 
+    }
+    .pan {
+        bottom: 0;
+    }
+    .header .slick-slide {
+        height: 140px;
+    }
+    .slick-slide img {
+        width: 100%;
+    }
+    .text_for_img {
+        font-size: 12px;
+    }
+    .slick-slide .hungry {
+        padding-top: 50px;
+    }
+    .slick-slide .ff {
+        width: 120px;
+        height: 100px;
+    }
+
+    #about {
+        background-position: top right;
+        padding-bottom: 300px;
+        background-size: 100%;
+    }
+    .about-info {
+        margin-top: 60px;
+    }
+    .TeenagerGirl {
+        position: absolute;
+        margin-top: 380px;
+        width: 340px;
+        margin-left: -80px;
+    }
+    
+    #interactive {
+        margin-top: 140px;
+    }
+    .iphone {
+        width: 160px;
+        top: -60px;
+        right: 0;
+    }
+    .quality_engaging {
+        margin-top: 160px;
+    }
+    .children {
+        margin-top: 80px;
+    }
+
+    .service_content {
+        justify-content: center;
+    }
+    
+    .companies_report,
+    .web_safe {
+        background-position: top left 20px;
+    }
+    .quality_engaging,
+    .children {
+        background-position: top right 25px;
+    }
+    #testimonials .slick-slide {
+        margin: 0 20px;
+    }
+    .testimonials_slide {
+        padding: 20px 10px;
+    }
+    .wrap_form {
+        right: 50%;
+    }
+    .slick-prev {
+        left: 0;
+        z-index: 5;
+    }
+    .slick-next {
+        
+        z-index: 5;
+    }
+    .wrap_form {
+        height: 610px;
+        margin-right: 0;
+    }
+    footer {
+        padding-top: 420px;
+    }
+    .button_contact {
+        margin: 245px auto 0 auto;
+    }
+    .heaeder__backgroud {
+        background-size: 115%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .girl {
+        top: 250px;
+        width: 100%;
+    }
+    .button_contact {
+        margin: 230px auto 0 auto;
+    }
+    .about-text {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+
+    .companies_report {
+        background-position: top right 115px;
+    }
+
+    .quality_engaging {
+        background-position: top right 5px;
+    }
+
+    .web_safe {
+        background-position: top right 55px;
+    }
+
+    .children {
+        background-position: top right 10px;
+    }
+    .wrap_form {
+        height: 610px;
+        width: 350px;
+        top: 415px;
+        right: 50%;
+        transform: translateX(50%);
+        margin-right: 0;
+    }
+    .about-text {
+        width: 280px;
+    }
+    .heaeder__backgroud {
+        background-size: 115%;
+    }
+    .circle {
+        left: 495px;
+    }
+}
+
+@media screen and (max-width: 340px) { 
+    .testimonials_slide p {
+        font-size: 8px;
+        letter-spacing: 0;
+    }
+    .circle {
+        width: 100px;    
+        height: 100px; 
+        left: 410px;
+        top: 680px;   
+    }
+}
