@@ -101,7 +101,7 @@ a {
 }
 
 .icon_fb {
-    background: url(/img/facebook_black.png) center center no-repeat;
+    background: url('../img/facebook_black.png') center center no-repeat;
     position: relative;
 }
 
@@ -113,7 +113,7 @@ a {
     width: 100%;
     top: 0;
     left: 0;
-    background: url(/img/Facebook.png) center center no-repeat;
+    background: url('../img/Facebook.png') center center no-repeat;
     opacity: 0;
     transition: opacity .3s;
 }
@@ -123,7 +123,7 @@ a {
 }
 
 .icon_yt {
-    background: url(/img/Youtube_black.png) center center no-repeat;
+    background: url('../img/Youtube_black.png') center center no-repeat;
     position: relative;
 }
 
@@ -135,7 +135,7 @@ a {
     width: 100%;
     top: 0;
     left: 0;
-    background: url(/img/youtube.png) center center no-repeat;
+    background: url('../img/youtube.png') center center no-repeat;
     opacity: 0;
     transition: opacity .3s;
 }
@@ -145,7 +145,7 @@ a {
 }
 
 .icon_insta { 
-    background: url('/img/insta_black.png') center center no-repeat; 
+    background: url('../img/insta_black.png') center center no-repeat; 
     position: relative;
 }
 
@@ -157,7 +157,7 @@ a {
     width: 100%;
     top: 0;
     left: 0;
-    background: url(/img/Instagram.png) center center no-repeat;
+    background: url('../img/Instagram.png') center center no-repeat;
     opacity: 0;
     transition: opacity .3s;
 }
