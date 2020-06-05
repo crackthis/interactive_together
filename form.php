@@ -7,7 +7,7 @@
 					"Number:". $_POST['number'] . "\n" .
 					"Message: ". $_POST['message'];
 	
-		mail( 'samirasabulis@gmail.com', "Interactive Together", $message ); 
+		mail( '', "Interactive Together", $message ); 
 		$new_url = 'return.html';
 		header('Location: '.$new_url);
 		
